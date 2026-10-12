@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#c98697">
+<title>Mis XV · Camila Arellano Hernández</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+:root{--tea:#F4C2C3;--tea-dark:#bd8587;--mauve:#d294a1;--mauve-deep:#98596a;--paper:#fff9f8;--ink:#4a3a3f;--line:#e7cfd3;--cream:#fff4f1}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',sans-serif;font-weight:300}a{color:inherit}.top{position:fixed;z-index:10;top:0;left:0;right:0;height:54px;display:flex;align-items:center;justify-content:space-between;padding:0 22px;background:#fff9f8e8;backdrop-filter:blur(12px);border-bottom:1px solid #e7cfd366}.top a{text-decoration:none}.logo{font:italic 18px 'Playfair Display',serif}.topnav{font-size:9px;letter-spacing:.15em;text-transform:uppercase;display:flex;gap:18px}.hero{min-height:100svh;padding:75px 18px 35px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;background-color:var(--mauve);background-image:radial-gradient(ellipse at 18% 24%,#ffffff17 0 1px,transparent 2px),radial-gradient(ellipse at 75% 73%,#a85f7318 0 1px,transparent 2px),linear-gradient(135deg,#dfaab0,#cf8999 55%,#a65f73);background-size:17px 19px,21px 23px,cover}.hero:before{content:'';position:absolute;inset:9px;border:1px solid #f7f2e3a6;pointer-events:none}.hero:after{content:'✧';position:absolute;top:20px;left:50%;transform:translateX(-50%);color:#fff3d4;font-size:15px}.cover{position:relative;width:min(100%,370px);min-height:min(790px,calc(100svh - 115px));padding:47px 24px 35px;display:flex;flex-direction:column;align-items:center;text-align:center;justify-content:space-between;border:1px solid #f8f0d6a8;color:var(--cream);background:linear-gradient(180deg,#c17d8b88,#98596a55);box-shadow:0 16px 60px #713f4f35}.cover:before,.cover:after{position:absolute;color:#f5edd8b8;font-size:20px;line-height:1}.cover:before{content:'❧';top:12px;left:15px;transform:rotate(-25deg)}.cover:after{content:'❧';right:15px;bottom:12px;transform:rotate(155deg)}.smallcaps{font-size:9px;letter-spacing:.32em;text-transform:uppercase}.cover h1{font:400 clamp(48px,12vw,74px)/.94 'Playfair Display',serif;margin:14px 0 0;letter-spacing:-.045em}.cover h1 span{display:block;font-style:italic;font-size:.46em;letter-spacing:.22em;margin-top:12px;color:#f5d9d6}.cover-name{font:italic clamp(21px,5.4vw,27px) 'Playfair Display',serif;margin:14px 0 0}.cover-note{font:italic 15px 'Playfair Display',serif;letter-spacing:.05em;margin:12px 0 0;color:#fff3ef}.portrait{width:min(57vw,230px);height:min(68vw,284px);min-height:220px;max-height:280px;position:relative;margin:15px auto 8px;border:1px solid #efe7ce;border-radius:49% 49% 49% 49% / 40% 40% 40% 40%;padding:7px;background:#f2d9dc;box-shadow:0 0 0 5px #ffffff15,0 14px 30px #713f4f35;overflow:visible}.hero-photo{width:100%;height:100%;display:block;object-fit:cover;border-radius:inherit;background:linear-gradient(#f0dfe1,#fff2f0 54%,#e9cbd0)}.photo-missing{background:linear-gradient(145deg,#f9e9eb,#efcdd2)}.photo-missing:after{content:"Coloca tu foto en img/niña.jpg";position:absolute;inset:0;display:grid;place-items:center;padding:22px;text-align:center;color:#98596a;font:italic 15px 'Playfair Display',serif}.portrait .bird{position:absolute;inset:-4px;overflow:visible;pointer-events:none;width:calc(100% + 8px);height:calc(100% + 8px)}.cover-footer{display:flex;flex-direction:column;gap:10px;align-items:center}.tiny-flower{font-size:18px;color:var(--tea)}.cover-scroll{color:var(--cream);font-size:8px;letter-spacing:.2em;text-transform:uppercase;text-decoration:none}.cover-scroll b{display:block;font-size:19px;font-weight:300;animation:bob 2.2s ease-in-out infinite;margin-top:8px}.section{padding:96px 22px;position:relative;overflow:hidden}.inner{width:min(100%,400px);margin:auto}.center{text-align:center}.eyebrow{font-size:9px;letter-spacing:.27em;text-transform:uppercase;color:var(--mauve-deep)}h2{font:400 clamp(34px,8.5vw,52px)/1.12 'Playfair Display',serif;margin:17px 0 18px}h3{font:400 clamp(18px,8.5vw,28px)/1.12 'Playfair Display',serif;margin:17px 0 18px}p{line-height:1.9}.invitation{background:var(--paper);text-align:center}.invitation .introcopy{font:italic 18px/1.9 'Playfair Display',serif;color:#7e656b;max-width:420px;margin:22px auto}.divider{display:flex;align-items:center;justify-content:center;gap:13px;color:var(--tea-dark);margin:27px auto}.divider:before,.divider:after{content:'';width:48px;height:1px;background:#c8b7a7}.divider span{font-size:17px;display:inline-block;animation:slowSpin 18s linear infinite}.event{background:#f8e7e9}.event:before{content:' ';position:absolute;left:16px;right:16px;top:15px;bottom:15px;border:1px solid #e9cdd1;pointer-events:none}.event .inner{position:relative}.date-banner{font:italic 20px 'Playfair Display',serif;margin:0 auto 25px;color:#8c6971}.info{border-top:1px solid var(--line);max-width:350px;margin:0 auto}.info-row{padding:19px 10px;border-bottom:1px solid var(--line)}.info-icon{font:18px 'Playfair Display',serif;color:var(--tea-dark);margin-bottom:6px}.info-label{font-size:8px;letter-spacing:.22em;text-transform:uppercase;color:#977d81}.info-value{font:21px 'Playfair Display',serif;margin-top:5px}.info-sub{font-size:10px;color:#8f797d;margin-top:4px;letter-spacing:.04em}.countdown{margin:32px auto 0;padding-top:25px;border-top:1px solid #e7cfd3;max-width:350px}.count-label{font-size:8px;letter-spacing:.22em;text-transform:uppercase;color:#977d81}.count-grid{display:flex;gap:8px;justify-content:center;margin-top:14px}.count-box{width:64px;padding:11px 4px 9px;background:#d28c9a;color:#fff7f5}.count-box strong{font:23px 'Playfair Display',serif;font-weight:400;display:block}.count-box small{font-size:7px;text-transform:uppercase;letter-spacing:.1em}.count-note{font:italic 12px 'Playfair Display',serif;color:#8c6971;margin:12px auto 0}.dress{background:#fff9f8;text-align:center}.dress-art{margin:29px auto 15px;width:min(100%,300px);height:145px;border-bottom:1px solid #e7cfd3;position:relative;display:flex;align-items:flex-end;justify-content:center;gap:13px;overflow:hidden}.dress-art .silhouette{width:58px;height:123px;position:relative}.silhouette:before{content:'';position:absolute;width:16px;height:18px;border-radius:50%;top:0;left:21px;background:#c8a99c}.silhouette:after{content:'';position:absolute;left:5px;right:5px;top:20px;height:100px;background:linear-gradient(150deg,#e9babb,#f1d8d2);clip-path:polygon(38% 0,62% 0,76% 19%,100% 100%,0 100%,24% 19%);border-radius:20px 20px 0 0}.silhouette:nth-child(2):after{background:linear-gradient(150deg,#e6b8c0,#f4d6dc)}.silhouette:nth-child(3):after{background:linear-gradient(150deg,#c98697,#dfaab6)}.silhouette:nth-child(4):after{background:linear-gradient(150deg,#c5908c,#e5b9b5)}.dress-desc{font:italic 16px/1.7 'Playfair Display',serif;color:#7e656b;max-width:365px;margin:18px auto 0}.rsvp{background:var(--mauve-deep);color:var(--cream);text-align:center}.rsvp .eyebrow{color:#f6dada}.rsvp p{font:italic 16px/1.8 'Playfair Display',serif}.confirm-toggle{text-decoration:none;display:inline-flex;gap:11px;align-items:center;padding:14px 25px;margin:17px auto 0;border:1px solid #f8eee0;background:transparent;color:#fffaf0;font:9px 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;cursor:pointer;transition:.2s}.confirm-toggle:hover,.confirm-toggle[aria-expanded=true]{background:var(--tea);border-color:var(--tea);color:#554348}.confirm-toggle span{font-size:17px;transition:transform .25s}.confirm-toggle[aria-expanded=true] span{transform:rotate(45deg)}.form-wrap{max-height:0;overflow:hidden;opacity:0;transition:max-height .7s ease,opacity .4s ease,margin .4s ease}.form-wrap.open{max-height:650px;opacity:1;margin-top:24px}.form-card{max-width:370px;margin:0 auto;padding:25px;background:var(--paper);color:var(--ink);text-align:left}.field{margin-bottom:17px}.field>label{display:block;font-size:8px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:8px;color:#876970}.field input[type=text],.field input[type=number]{width:100%;padding:13px;border:1px solid #ead0d4;background:white;font:14px 'DM Sans',sans-serif;color:var(--ink);outline:none}.field input:focus{border-color:var(--tea-dark)}.field input[type=number]{appearance:textfield;-moz-appearance:textfield}.field input[type=number]::-webkit-inner-spin-button,.field input[type=number]::-webkit-outer-spin-button{opacity:1}.radio-row{display:flex;flex-wrap:wrap;gap:10px 17px;font-size:11px}.radio-row label{display:flex;align-items:center;gap:7px}.radio-row input{accent-color:var(--tea-dark)}.submit{width:100%;padding:14px;background:var(--tea);border:0;color:#554348;font:500 9px 'DM Sans',sans-serif;text-transform:uppercase;letter-spacing:.16em;cursor:pointer}.thanks{display:none;text-align:center;font:italic 18px 'Playfair Display',serif;padding-top:14px;color:var(--mauve-deep)}.form-note{font:10px/1.6 'DM Sans',sans-serif!important;color:#f3dfe2;max-width:410px;margin:17px auto 0}.quick-links{display:flex;justify-content:center;gap:18px;margin-top:40px}.quick-link{width:83px;color:#fff9;display:flex;flex-direction:column;align-items:center;gap:9px;font-size:8px;line-height:1.5;letter-spacing:.09em;text-transform:uppercase;text-decoration:none}.quick-link i{font:22px 'Playfair Display',serif;font-style:normal;width:48px;height:48px;display:grid;place-items:center;border:1px solid #fff8;border-radius:50%;color:#fff8}.quick-link.inactive{opacity:.53;cursor:default}.foot{background:var(--tea);padding:31px 20px;text-align:center;font:italic 21px 'Playfair Display',serif}.foot small{display:block;margin-top:9px;font:8px 'DM Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase}.reveal{opacity:0;transform:translateY(22px);transition:opacity .75s ease,transform .75s ease}.reveal.visible{opacity:1;transform:none}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(5px)}}@keyframes slowSpin{to{transform:rotate(360deg)}}@keyframes petalFloat{0%,100%{transform:translate3d(0,0,0) rotate(0deg)}35%{transform:translate3d(13px,-17px,0) rotate(120deg)}70%{transform:translate3d(-6px,9px,0) rotate(245deg)}}.floating-flower{position:absolute;z-index:1;color:#fff8;font-size:24px;pointer-events:none;animation:petalFloat 10s ease-in-out infinite}.ff1{left:9%;top:17%}.ff2{right:8%;top:29%;font-size:17px;animation-delay:-4s}.ff3{left:14%;bottom:15%;font-size:19px;animation-delay:-7s}.ff4{right:11%;bottom:19%;font-size:26px;animation-delay:-2s}
+.family{background:#f7e9eb;text-align:center}.family-copy,.gift-copy{font:italic 16px/1.8 'Playfair Display',serif;color:#7e656b;max-width:360px;margin:0 auto 25px}.family-list{max-width:340px;margin:30px auto 0;border-top:1px solid #e3c4ca}.family-person{padding:19px 8px;border-bottom:1px solid #e3c4ca}.family-role{font-size:8px;letter-spacing:.2em;text-transform:uppercase;color:#98596a}.family-name{font:italic 22px 'Playfair Display',serif;color:#4a3a3f;margin-top:7px}.temple-photo-frame{width:min(100%,255px);height:170px;position:relative;margin:15px auto 12px;border:5px solid #fff9f8;box-shadow:0 9px 25px #98596a22;background:linear-gradient(145deg,#f9e9eb,#efcdd2)}.temple-photo{width:100%;height:100%;object-fit:cover;display:block}.temple-photo-frame.photo-missing:after{content:"Coloca tu imagen en img/templo.jpg";position:absolute;inset:0;display:grid;place-items:center;padding:14px;text-align:center;color:#98596a;font:italic 13px 'Playfair Display',serif}.map-link,.gift-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;margin-top:12px;padding:11px 16px;border:1px solid #bd8587;background:#fff9f8;color:#804d59;text-decoration:none;font:9px 'DM Sans',sans-serif;letter-spacing:.14em;text-transform:uppercase}.map-link:hover,.gift-button:not(:disabled):hover{background:#f4c2c3}.gifts{text-align:center;background:#fff9f8}.gift-mark{font:34px 'Playfair Display',serif;color:#bd8587;margin:18px}.event .info-row{padding:20px 8px}.event .info-label{font-size:9px}.event .info-value{font-size:20px}.countdown{max-width:340px}.form-wrap.open{max-height:850px}.form-card{max-width:360px}
+.confirm-toggle{font-family:'DM Sans',sans-serif}.rsvp .form-wrap.open{max-height:1000px}.rsvp .form-note{margin:14px auto 2px;color:#f3dfe2;text-align:center}.rsvp-card{max-width:370px;margin:0 auto;padding:26px 23px;background:var(--paper);color:var(--ink);text-align:left;border:1px solid #f3dfe2;box-shadow:0 14px 35px #45243225}.rsvp-card .field label{display:block;margin:0 0 8px;color:#876970;font-size:9px;letter-spacing:.14em;text-transform:uppercase}.rsvp-card input[type=text],.rsvp-card input[type=number],.rsvp-card textarea{width:100%;padding:13px 14px;border:1px solid #ead0d4;background:#fff;font:14px 'DM Sans',sans-serif;color:var(--ink);outline:none;border-radius:0}.rsvp-card textarea{min-height:84px;resize:vertical}.rsvp-card input:focus,.rsvp-card textarea:focus{border-color:var(--tea-dark);box-shadow:0 0 0 3px #f4c2c344}.rsvp-choice{display:grid;grid-template-columns:1fr 1fr;gap:9px}.rsvp-choice label{display:flex!important;align-items:center;gap:8px;padding:12px!important;border:1px solid #ead0d4;background:#fff;font-size:11px!important;letter-spacing:0!important;text-transform:none!important;cursor:pointer}.rsvp-choice input{accent-color:var(--tea-dark)}.rsvp-card .submit{background:linear-gradient(135deg,#f4c2c3,#d294a1);color:#553e46;padding:15px}.rsvp-status{display:none;text-align:center;margin:15px 0 0;font:italic 16px/1.6 'Playfair Display',serif;color:#98596a}.rsvp-status.show{display:block}.rsvp-card .form-note{color:#8f797d;text-align:center;margin:12px 0 0;font:10px/1.6 'DM Sans',sans-serif!important}
+@media(max-width:390px){.cover{padding:42px 18px 29px}.portrait{min-height:190px}.topnav{gap:12px;font-size:8px}.section{padding:75px 20px}.count-box{width:61px}.quick-links{gap:7px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header class="top"><a class="logo" href="#inicio">Camila · XV</a><nav class="topnav"><a href="#celebracion">Detalles</a><a href="#familia">Familia</a><a href="#regalos">Regalos</a><a href="#asistencia">RSVP</a></nav></header>
+<main>
+  <section class="hero" id="inicio">
+    <span class="floating-flower ff1" aria-hidden="true">✿</span>
+    <span class="floating-flower ff2" aria-hidden="true">❀</span>
+    <span class="floating-flower ff3" aria-hidden="true">✿</span>
+    <span class="floating-flower ff4" aria-hidden="true">❀</span>
+    <div class="cover">
+      <div>
+        <div class="smallcaps">Una fecha para guardar</div>
+        <h1>Mis XV<span>años</span></h1>
+        <p class="cover-name">Camila Arellano Hernández</p>
+        <p class="cover-note">tiene el gusto de invitarte</p>
+      </div>
+      <div class="portrait" aria-label="Ilustración de una iglesia con un pajarito volando a su alrededor">
+        <img class="hero-photo" src="img/niña.jpg" alt="Retrato de Camila" onerror="this.style.display='none';this.parentElement.classList.add('photo-missing')">
+        <svg class="bird" viewBox="0 0 250 310" aria-hidden="true">
+          <defs>
+            <path id="flightpath" d="M125 14 C260 5 260 285 125 294 C-10 285 -10 30 125 14Z"/>
+          </defs>
+          <g>
+            <animateMotion dur="8s" repeatCount="indefinite" rotate="auto">
+              <mpath href="#flightpath"/>
+            </animateMotion>
+            <g transform="scale(.72)">
+              <path d="M0 0 Q9 -10 16 0 Q24 -9 31 1 Q23 0 17 5 Q9 1 0 0Z" fill="#98596a"/>
+              <path d="M14 1Q16 -8 21 -9Q20 -2 18 2" fill="#98596a"/>
+              <circle cx="24" cy="0" r=".8" fill="#fff"/>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class="cover-footer">
+        <div class="tiny-flower">✿　✧　✿</div>
+        <a class="cover-scroll" href="#bienvenida">Desliza para conocer más<b>⌄</b></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section invitation" id="bienvenida">
+    <div class="inner reveal">
+      <div class="eyebrow">Una celebración muy especial</div>
+      <h2>Un día que llevaré<br>siempre en el corazón</h2>
+      <div class="divider"><span>❀</span></div>
+      <p class="introcopy">Con mucha ilusión quiero compartir contigo la alegría de mis quince años. Acompáñame a celebrar una noche llena de cariño, música y momentos para recordar.</p>
+      <div style="font:25px 'Playfair Display',serif;color:#bd8587;margin-top:25px">❧　✿　❧</div>
+    </div>
+  </section>
+
+  <section class="section family" id="familia">
+    <div class="inner center reveal">
+      <div class="eyebrow">Con todo mi cariño</div>
+      <h2>Mi familia</h2>
+      <p class="family-copy">Agradezco a quienes me han acompañado con tanto amor en cada paso de mi vida.</p>
+      <div class="family-list">
+        <div class="family-person">
+          <div class="family-role">Papá</div>
+          <div class="family-name">Salvador Francisco Arellano Hernández</div>
+        </div>
+
+        <div class="family-person">
+          <div class="family-role">Mamá</div>
+          <div class="family-name">Maria Isabel Hernández Cerritos</div>
+        </div>
+        
+        <div class="family-person">
+          <div class="family-role">Madrina</div>
+          <div class="family-name">Stephany Romero Hernández</div>
+        </div>
+      </div>
+      <div class="divider"><span>❀</span></div>
+    </div>
+  </section>
+
+  <section class="section event" id="celebracion">
+    <div class="inner center reveal">
+      <div class="eyebrow">Celebremos juntos</div>
+      <h2>El gran día</h2>
+      <p class="date-banner">Guarda la fecha y celebremos juntos</p>
+      <div class="info">
+        <div class="info-row">
+          <div class="info-icon">✿</div>
+          <div class="info-label">Fecha</div>
+          <div class="info-value">Sábado, 16 de enero de 2027</div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon">◷</div>
+          <div class="info-label">Hora de la misa</div>
+          <div class="info-value">5:00pm</div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon">✧</div>
+          <div class="info-label">Iglesia</div>
+          <div class="info-value">Ceremonia religiosa</div>
+          <div class="info-sub">Templo de Santa Rosa de Viterbo</div>
+          <div class="temple-photo-frame">
+            <img class="temple-photo" src="img/templo.jpg" alt="Iglesia de la ceremonia" onerror="this.style.display='none';this.parentElement.classList.add('photo-missing')">
+          </div>
+          <a class="map-link" href="https://maps.app.goo.gl/yRsb831khWySdGEV9?g_st=aw" target="_blank" rel="noopener noreferrer">⌖ Ver ubicación de la iglesia</a>
+        </div>
+        <div class="info-row">
+          <div class="info-icon">◷</div>
+          <div class="info-label">Hora de recepción</div>
+          <div class="info-value">7:30pm</div>
+        </div>
+        <div class="info-row"><div class="info-icon">♡</div><div class="info-label">Salón</div><div class="info-value">Recepción</div><a class="map-link" href="https://maps.app.goo.gl/nKr2GgRVdmSMSHrs7?g_st=aw" target="_blank" rel="noopener noreferrer">⌖ Ver ubicación del salón</a></div></div><div class="countdown"><div class="count-label" id="countLabel">Faltan para el gran día</div><div class="count-grid"><div class="count-box"><strong id="countDays">--</strong><small>días</small></div><div class="count-box"><strong id="countHours">--</strong><small>horas</small></div><div class="count-box"><strong id="countMinutes">--</strong><small>minutos</small></div><div class="count-box"><strong id="countSeconds">--</strong><small>segundos</small></div></div><p class="count-note">Sábado, 16 de enero de 2027</p></div></div></section>
+  <section class="section dress"><div class="inner center reveal"><div class="eyebrow">Una noche para celebrar</div><h2>Vestimenta</h2><div class="dress-art"> <img class="ropa-photo" src="img/ropa.png" alt="Dress code" style="max-height: 150px; padding-bottom: 10px;" onerror="this.style.display='none';this.parentElement.classList.add('photo-missing')"> </div><p class="dress-desc"><strong style="font-weight:400;color:#98596a">Formal</strong><br>El rosa en todas sus tonalidades estará reservado para la quinceañera.<br><br><h3>Etiqueta Rigurosa</h3><strong style="font-weight:400;color:#98596a">Celebración sin niños</strong></p></div></section>
+
+  <section class="section gifts" id="regalos"><div class="inner center reveal"><div class="eyebrow">Un detalle con cariño</div><h2>Mesa de regalos</h2><div class="gift-mark">♡</div><p class="gift-copy">Si deseas tener un detalle conmigo, aquí compartiré mi mesa de regalos.</p><p class="gift-copy">Número del evento: 60059773</p><a class="gift-button" href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/60059773" target="_blank" rel="noopener noreferrer">Ver mesa de regalos en Liverpool</a></div>
+  </section>
+  <section class="section rsvp" id="asistencia"><div class="inner reveal"><div class="eyebrow">Me hará muy feliz verte</div><h2>¿Nos acompañas?</h2><p>Tu compañía es el detalle más bonito.<br>Confirma aquí tu asistencia.</p><button class="confirm-toggle" id="toggleForm" type="button" aria-expanded="false" aria-controls="formWrap">Confirmar asistencia <span>＋</span></button><div class="form-wrap" id="formWrap" aria-hidden="true"><form class="rsvp-card" id="rsvpForm" action="about:blank" method="post" target="rsvpSink"><div class="field"><label for="guestName">Tu nombre</label><input id="guestName" name="nombre" type="text" autocomplete="name" placeholder="Escribe tu nombre" required></div><div class="field"><label>¿Nos acompañas?</label><div class="rsvp-choice"><label><input type="radio" name="asistencia" value="Sí asistiré" required> ¡Sí, ahí estaré!</label><label><input type="radio" name="asistencia" value="No podré asistir"> No podré asistir</label></div></div><div class="field"><label for="guestCount">Número de personas</label><input id="guestCount" name="personas" type="number" min="1"  value="1" required><small style="display:block;margin-top:7px;color:#8f797d;font-size:10px">Incluyéndote.</small></div><button class="submit" type="submit">Enviar confirmación</button><p class="form-note">Gracias por responder con cariño ♡</p><p class="rsvp-status" id="rsvpStatus" role="status"></p></form><iframe name="rsvpSink" title="" style="display:none" aria-hidden="true"></iframe></div><div class="quick-links"><a class="quick-link" href="#asistencia" id="quickRsvp"><i>✓</i><span>Confirmar<br>asistencia</span></a><a class="quick-link" href="#regalos"><i>♡</i><span>Mesa de<br>regalos</span></a><a class="quick-link" href="#celebracion"><i>⌖</i><span>Ver<br>ubicaciones</span></a></div></div></section>
+</main><footer class="foot">Con cariño, Camila<small>Mis XV · una noche para recordar</small></footer>
+<script>
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+
+const toggleFormButton=document.getElementById('toggleForm');
+const formWrap=document.getElementById('formWrap');
+function setFormOpen(open){
+  toggleFormButton.setAttribute('aria-expanded',String(open));
+  formWrap.setAttribute('aria-hidden',String(!open));
+  formWrap.classList.toggle('open',open);
+}
+toggleFormButton.addEventListener('click',()=>setFormOpen(toggleFormButton.getAttribute('aria-expanded')!=='true'));
+document.getElementById('quickRsvp').addEventListener('click',event=>{
+  event.preventDefault();
+  setFormOpen(true);
+  formWrap.scrollIntoView({behavior:'smooth',block:'start'});
+});
+
+
+
+const rsvpForm=document.getElementById('rsvpForm');
+const rsvpStatus=document.getElementById('rsvpStatus');
+const RSVP_ENDPOINT='https://script.google.com/macros/s/AKfycbzmlRuWXjf7hnapKWKPtygnDnr7-hhKKgz3qs3iOdvUyEWDisTl41TWRsaqPNYpU_BU/exec'; // Agrega aquí la URL de implementación de Google Apps Script para guardar respuestas en Sheets.
+rsvpForm.addEventListener('submit',event=>{
+  event.preventDefault();
+  if(!RSVP_ENDPOINT){
+    rsvpStatus.textContent='El formulario ya está listo. Falta activar la conexión con la hoja de respuestas para poder guardar tu confirmación.';
+    rsvpStatus.classList.add('show');
+    return;
+  }
+  rsvpForm.action=RSVP_ENDPOINT;
+  rsvpForm.submit();
+  rsvpStatus.textContent='¡Gracias! Tu confirmación fue enviada.';
+  rsvpStatus.classList.add('show');
+  rsvpForm.querySelector('.submit').disabled=true;
+  rsvpForm.querySelector('.submit').textContent='Confirmación enviada';
+});
+
+function updateCountdown(){
+  const now=new Date();
+  const target=new Date(2027,0,16,0,0,0);
+  const today=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+  const label=document.getElementById('countLabel');
+  if(today.getTime()===target.getTime()){
+    label.textContent='¡Hoy es el gran día!';
+    ['countDays','countHours','countMinutes','countSeconds'].forEach(id=>document.getElementById(id).textContent='00');
+    return;
+  }
+  if(today>target){
+    label.textContent='¡Gracias por celebrar con Camila!';
+    ['countDays','countHours','countMinutes','countSeconds'].forEach(id=>document.getElementById(id).textContent='00');
+    return;
+  }
+  let seconds=Math.floor((target-now)/1000);
+  const days=Math.floor(seconds/86400); seconds%=86400;
+  const hours=Math.floor(seconds/3600); seconds%=3600;
+  const minutes=Math.floor(seconds/60); seconds%=60;
+  document.getElementById('countDays').textContent=String(days).padStart(2,'0');
+  document.getElementById('countHours').textContent=String(hours).padStart(2,'0');
+  document.getElementById('countMinutes').textContent=String(minutes).padStart(2,'0');
+  document.getElementById('countSeconds').textContent=String(seconds).padStart(2,'0');
+}
+updateCountdown();
+setInterval(updateCountdown,1000);
+</script>
+</body></html>
+
+
+
+
+
